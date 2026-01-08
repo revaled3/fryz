@@ -1,0 +1,118 @@
+{
+  "services": [
+    {
+      "id": "color-consultation",
+      "slug": "color-consultation",
+      "title": { "pl": "Konsultacja kolorystyczna", "en": "Color Consultation" },
+      "description": {
+        "pl": "Indywidualna analiza kolorytu, struktury włosów i stylu życia. Profesjonalny plan koloryzacji dopasowany do Twoich potrzeb.",
+        "en": "Individual analysis of coloring, hair structure and lifestyle. Professional coloring plan tailored to your needs."
+      },
+      "priceFrom": { "pln": 500, "usd": 150 },
+      "duration": "60 min",
+      "features": [
+        { "pl": "Analiza kolorytu skóry", "en": "Skin tone analysis" },
+        { "pl": "Ocena struktury włosów", "en": "Hair structure assessment" },
+        { "pl": "Plan koloryzacji", "en": "Coloring plan" },
+        { "pl": "Rekomendacje produktowe", "en": "Product recommendations" }
+      ],
+      "image": "/images/services/consultation.jpg",
+      "order": 1
+    },
+    {
+      "id": "luxury-coloring",
+      "slug": "luxury-coloring",
+      "title": { "pl": "Luksusowa koloryzacja", "en": "Luxury Coloring" },
+      "description": {
+        "pl": "Kompleksowa koloryzacja z użyciem najwyższej jakości produktów. Balayage, ombre, wielowymiarowy kolor.",
+        "en": "Comprehensive coloring using highest quality products. Balayage, ombre, multidimensional color."
+      },
+      "priceFrom": { "pln": 2500, "usd": 600 },
+      "duration": "3-5h",
+      "features": [
+        { "pl": "Produkty premium", "en": "Premium products" },
+        { "pl": "Ochrona Olaplex", "en": "Olaplex protection" },
+        { "pl": "Końcowa stylizacja", "en": "Final styling" },
+        { "pl": "Pielęgnacja domowa", "en": "Home care" }
+      ],
+      "image": "/images/services/coloring.jpg",
+      "order": 2
+    },
+    {
+      "id": "bridal-styling",
+      "slug": "bridal-styling",
+      "title": { "pl": "Stylizacja ślubna", "en": "Bridal Styling" },
+      "description": {
+        "pl": "Kompleksowa obsługa ślubna obejmująca próbę, dzień ślubu oraz opcjonalnie opiekę nad fryzurą przez cały dzień.",
+        "en": "Complete bridal service including trial, wedding day and optional all-day hair care."
+      },
+      "priceFrom": { "pln": 4000, "usd": 1000 },
+      "duration": "Cały dzień",
+      "features": [
+        { "pl": "Próba fryzury", "en": "Hair trial" },
+        { "pl": "Stylizacja w dniu ślubu", "en": "Wedding day styling" },
+        { "pl": "Poprawki przez cały dzień", "en": "All-day touch-ups" },
+        { "pl": "Akcesoria premium", "en": "Premium accessories" }
+      ],
+      "image": "/images/services/bridal.jpg",
+      "order": 3
+    },
+    {
+      "id": "editorial-session",
+      "slug": "editorial-session",
+      "title": { "pl": "Sesja editorialna", "en": "Editorial Session" },
+      "description": {
+        "pl": "Profesjonalna stylizacja włosów na potrzeby sesji zdjęciowych, pokazów mody i produkcji filmowych.",
+        "en": "Professional hair styling for photo shoots, fashion shows and film productions."
+      },
+      "priceFrom": { "pln": 3000, "usd": 750 },
+      "duration": "Zależnie od projektu",
+      "features": [
+        { "pl": "Konsultacja kreatywna", "en": "Creative consultation" },
+        { "pl": "Stylizacja na planie", "en": "On-set styling" },
+        { "pl": "Wielokrotne look'i", "en": "Multiple looks" },
+        { "pl": "Dostępność w travel", "en": "Travel availability" }
+      ],
+      "image": "/images/services/editorial.jpg",
+      "order": 4
+    },
+    {
+      "id": "transformation",
+      "slug": "transformation",
+      "title": { "pl": "Metamorfoza", "en": "Transformation" },
+      "description": {
+        "pl": "Kompleksowa zmiana wizerunku obejmująca kolor, strzyżenie i stylizację. Dla kobiet gotowych na radykalną zmianę.",
+        "en": "Complete image change including color, cut and styling. For women ready for radical change."
+      },
+      "priceFrom": { "pln": 5000, "usd": 1200 },
+      "duration": "4-6h",
+      "features": [
+        { "pl": "Konsultacja wizerunkowa", "en": "Image consultation" },
+        { "pl": "Koloryzacja premium", "en": "Premium coloring" },
+        { "pl": "Strzyżenie modelujące", "en": "Shaping cut" },
+        { "pl": "Stylizacja finalna", "en": "Final styling" }
+      ],
+      "image": "/images/services/transformation.jpg",
+      "order": 5
+    },
+    {
+      "id": "hair-treatment",
+      "slug": "hair-treatment",
+      "title": { "pl": "Kuracja regenerująca", "en": "Regenerating Treatment" },
+      "description": {
+        "pl": "Głęboka regeneracja włosów z wykorzystaniem najnowszych technologii i ekskluzywnych produktów.",
+        "en": "Deep hair regeneration using latest technologies and exclusive products."
+      },
+      "priceFrom": { "pln": 1500, "usd": 400 },
+      "duration": "90 min",
+      "features": [
+        { "pl": "Diagnoza włosów", "en": "Hair diagnosis" },
+        { "pl": "Kuracja keratynowa", "en": "Keratin treatment" },
+        { "pl": "Masaż głowy", "en": "Scalp massage" },
+        { "pl": "Plan pielęgnacji", "en": "Care plan" }
+      ],
+      "image": "/images/services/treatment.jpg",
+      "order": 6
+    }
+  ]
+}

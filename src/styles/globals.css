@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-cream-50: 253 251 247;
+    --color-cream-100: 250 246 238;
+    --color-cream-200: 245 237 224;
+    --color-charcoal-800: 44 40 37;
+    --color-charcoal-900: 26 24 22;
+    --color-gold-400: 201 169 98;
+    --color-gold-500: 184 148 90;
+
+    --section-padding: clamp(6rem, 12vh, 10rem);
+    --container-padding: clamp(1.5rem, 5vw, 8rem);
+  }
+
+  html {
+    @apply antialiased;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-cream-50 text-charcoal-900 font-body;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    @apply bg-gold-400/30 text-charcoal-900;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-light tracking-tight;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  img {
+    @apply select-none;
+  }
+
+  /* Smooth scroll with Lenis */
+  html.lenis, html.lenis body {
+    height: auto;
+  }
+
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+
+  .lenis.lenis-smooth iframe {
+    pointer-events: none;
+  }
+}
+
+@layer components {
+  .container-luxury {
+    @apply mx-auto w-full max-w-[1440px];
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+  }
+
+  .section-spacing {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+  }
+
+  .text-gradient-gold {
+    @apply bg-gold-gradient bg-clip-text text-transparent;
+  }
+
+  .divider-gold {
+    @apply h-px w-full bg-gradient-to-r from-transparent via-gold-400 to-transparent opacity-50;
+  }
+
+  .link-underline {
+    @apply relative;
+  }
+
+  .link-underline::after {
+    @apply absolute bottom-0 left-0 h-px w-full origin-right scale-x-0 bg-current transition-transform duration-500 ease-elegant content-[''];
+  }
+
+  .link-underline:hover::after {
+    @apply origin-left scale-x-100;
+  }
+
+  .image-luxury {
+    @apply relative overflow-hidden;
+  }
+
+  .image-luxury img {
+    @apply transition-transform duration-elegant ease-elegant;
+  }
+
+  .image-luxury:hover img {
+    @apply scale-105;
+  }
+}
+
+@layer utilities {
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+  .animate-delay-400 {
+    animation-delay: 400ms;
+  }
+  .animate-delay-500 {
+    animation-delay: 500ms;
+  }
+
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+}

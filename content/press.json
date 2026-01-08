@@ -1,0 +1,33 @@
+{
+  "pressLogos": [
+    { "name": "Vogue", "logo": "/images/press/vogue.svg" },
+    { "name": "Elle", "logo": "/images/press/elle.svg" },
+    { "name": "Harper's Bazaar", "logo": "/images/press/harpers-bazaar.svg" },
+    { "name": "Marie Claire", "logo": "/images/press/marie-claire.svg" },
+    { "name": "Glamour", "logo": "/images/press/glamour.svg" },
+    { "name": "InStyle", "logo": "/images/press/instyle.svg" }
+  ],
+  "features": [
+    {
+      "id": "vogue-feature",
+      "publication": "Vogue",
+      "title": { "pl": "Artystka, która zmienia oblicze koloryzacji", "en": "The Artist Changing the Face of Hair Color" },
+      "date": "2024-06",
+      "url": "#"
+    },
+    {
+      "id": "elle-feature",
+      "publication": "Elle",
+      "title": { "pl": "Top 10 stylistów włosów na świecie", "en": "Top 10 Hair Stylists in the World" },
+      "date": "2024-03",
+      "url": "#"
+    },
+    {
+      "id": "bazaar-feature",
+      "publication": "Harper's Bazaar",
+      "title": { "pl": "Sekrety koloryzacji celebrytek", "en": "Celebrity Color Secrets" },
+      "date": "2023-11",
+      "url": "#"
+    }
+  ]
+}

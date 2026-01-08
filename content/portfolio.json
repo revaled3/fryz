@@ -1,0 +1,110 @@
+{
+  "categories": [
+    { "id": "all", "label": { "pl": "Wszystkie", "en": "All" } },
+    { "id": "editorial", "label": { "pl": "Editorial", "en": "Editorial" } },
+    { "id": "bridal", "label": { "pl": "Ślubne", "en": "Bridal" } },
+    { "id": "celebrity", "label": { "pl": "Celebryci", "en": "Celebrity" } },
+    { "id": "transformation", "label": { "pl": "Metamorfozy", "en": "Transformations" } }
+  ],
+  "projects": [
+    {
+      "id": "vogue-italia-2025",
+      "slug": "vogue-italia-cover",
+      "title": { "pl": "Okładka Vogue Italia", "en": "Vogue Italia Cover" },
+      "description": {
+        "pl": "Sesja okładkowa dla marcowego wydania Vogue Italia. Współpraca z najlepszymi fotografami mody.",
+        "en": "Cover shoot for March issue of Vogue Italia. Collaboration with top fashion photographers."
+      },
+      "category": "editorial",
+      "client": "Vogue Italia",
+      "year": 2025,
+      "images": [
+        { "src": "/images/portfolio/vogue-1.jpg", "alt": { "pl": "Okładka Vogue", "en": "Vogue Cover" }, "width": 1200, "height": 1600 }
+      ],
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "elle-paris-2024",
+      "slug": "elle-paris-editorial",
+      "title": { "pl": "Elle Paris Editorial", "en": "Elle Paris Editorial" },
+      "description": {
+        "pl": "Sesja modowa dla Elle Paris prezentująca najnowsze trendy w koloryzacji.",
+        "en": "Fashion editorial for Elle Paris showcasing latest coloring trends."
+      },
+      "category": "editorial",
+      "client": "Elle Paris",
+      "year": 2024,
+      "images": [
+        { "src": "/images/portfolio/elle-1.jpg", "alt": { "pl": "Elle Editorial", "en": "Elle Editorial" }, "width": 1200, "height": 1600 }
+      ],
+      "featured": true,
+      "order": 2
+    },
+    {
+      "id": "celebrity-transformation-2024",
+      "slug": "celebrity-platinum-transformation",
+      "title": { "pl": "Platynowa metamorfoza", "en": "Platinum Transformation" },
+      "description": {
+        "pl": "Spektakularna zmiana koloru dla międzynarodowej gwiazdy muzyki pop.",
+        "en": "Spectacular color change for an international pop music star."
+      },
+      "category": "celebrity",
+      "year": 2024,
+      "images": [
+        { "src": "/images/portfolio/celeb-1.jpg", "alt": { "pl": "Metamorfoza", "en": "Transformation" }, "width": 1200, "height": 1600 }
+      ],
+      "featured": true,
+      "order": 3
+    },
+    {
+      "id": "bridal-collection-2024",
+      "slug": "luxury-bridal-collection",
+      "title": { "pl": "Kolekcja ślubna", "en": "Bridal Collection" },
+      "description": {
+        "pl": "Ekskluzywne fryzury ślubne dla najbardziej wymagających panien młodych.",
+        "en": "Exclusive bridal hairstyles for the most discerning brides."
+      },
+      "category": "bridal",
+      "year": 2024,
+      "images": [
+        { "src": "/images/portfolio/bridal-1.jpg", "alt": { "pl": "Fryzura ślubna", "en": "Bridal Hair" }, "width": 1200, "height": 1600 }
+      ],
+      "featured": true,
+      "order": 4
+    },
+    {
+      "id": "harpers-bazaar-2024",
+      "slug": "harpers-bazaar-beauty",
+      "title": { "pl": "Harper's Bazaar Beauty", "en": "Harper's Bazaar Beauty" },
+      "description": {
+        "pl": "Sesja beauty dla Harper's Bazaar z wykorzystaniem innowacyjnych technik koloryzacji.",
+        "en": "Beauty shoot for Harper's Bazaar featuring innovative coloring techniques."
+      },
+      "category": "editorial",
+      "client": "Harper's Bazaar",
+      "year": 2024,
+      "images": [
+        { "src": "/images/portfolio/harpers-1.jpg", "alt": { "pl": "Harper's Bazaar", "en": "Harper's Bazaar" }, "width": 1200, "height": 1600 }
+      ],
+      "featured": true,
+      "order": 5
+    },
+    {
+      "id": "transformation-brunette-2024",
+      "slug": "brunette-to-blonde",
+      "title": { "pl": "Z brunetki na blond", "en": "Brunette to Blonde" },
+      "description": {
+        "pl": "Kompleksowa metamorfoza kolorystyczna z zachowaniem zdrowia włosów.",
+        "en": "Complete color transformation while maintaining hair health."
+      },
+      "category": "transformation",
+      "year": 2024,
+      "images": [
+        { "src": "/images/portfolio/transform-1.jpg", "alt": { "pl": "Metamorfoza", "en": "Transformation" }, "width": 1200, "height": 1600 }
+      ],
+      "featured": true,
+      "order": 6
+    }
+  ]
+}
