@@ -3,60 +3,70 @@
     {
       "id": "testimonial-1",
       "name": "Katarzyna M.",
-      "role": { "pl": "Dyrektor kreatywny", "en": "Creative Director" },
+      "role": {
+        "pl": "Dyrektor kreatywny",
+        "en": "Creative Director"
+      },
       "content": {
         "pl": "Aleksandra to prawdziwa artystka. Każda wizyta w jej salonie to wyjątkowe doświadczenie. Moje włosy nigdy nie wyglądały lepiej.",
         "en": "Alexandra is a true artist. Every visit to her salon is a unique experience. My hair has never looked better."
       },
-      "image": "/images/testimonials/client-1.jpg",
       "rating": 5,
       "location": "warsaw"
     },
     {
       "id": "testimonial-2",
       "name": "Emily R.",
-      "role": { "pl": "Aktorka", "en": "Actress" },
+      "role": {
+        "pl": "Aktorka",
+        "en": "Actress"
+      },
       "content": {
         "pl": "Pracuję z Aleksandrą od lat przy wszystkich moich produkcjach w Hollywood. Jej talent i profesjonalizm są niezrównane.",
         "en": "I've been working with Alexandra for years on all my Hollywood productions. Her talent and professionalism are unmatched."
       },
-      "image": "/images/testimonials/client-2.jpg",
       "rating": 5,
       "location": "los-angeles"
     },
     {
       "id": "testimonial-3",
       "name": "Anna W.",
-      "role": { "pl": "Przedsiębiorca", "en": "Entrepreneur" },
+      "role": {
+        "pl": "Przedsiębiorca",
+        "en": "Entrepreneur"
+      },
       "content": {
         "pl": "Szukałam kogoś, kto naprawdę rozumie luksusową pielęgnację włosów. Aleksandra przekroczyła wszystkie moje oczekiwania.",
         "en": "I was looking for someone who truly understands luxury hair care. Alexandra exceeded all my expectations."
       },
-      "image": "/images/testimonials/client-3.jpg",
       "rating": 5,
       "location": "warsaw"
     },
     {
       "id": "testimonial-4",
       "name": "Sarah L.",
-      "role": { "pl": "Modelka", "en": "Model" },
+      "role": {
+        "pl": "Modelka",
+        "en": "Model"
+      },
       "content": {
         "pl": "Najlepsza kolorystka, z jaką miałam przyjemność pracować. Rozumie potrzeby modelek i zawsze dostarcza perfekcyjne rezultaty.",
         "en": "The best colorist I've ever had the pleasure to work with. She understands models' needs and always delivers perfect results."
       },
-      "image": "/images/testimonials/client-4.jpg",
       "rating": 5,
       "location": "los-angeles"
     },
     {
       "id": "testimonial-5",
       "name": "Marta K.",
-      "role": { "pl": "Redaktor mody", "en": "Fashion Editor" },
+      "role": {
+        "pl": "Redaktor mody",
+        "en": "Fashion Editor"
+      },
       "content": {
         "pl": "Współpracujemy z Aleksandrą przy sesjach dla naszego magazynu. Jej wyczucie trendów i kreatywność są nieocenione.",
         "en": "We collaborate with Alexandra on shoots for our magazine. Her sense of trends and creativity are invaluable."
       },
-      "image": "/images/testimonials/client-5.jpg",
       "rating": 5,
       "location": "warsaw"
     }
